@@ -2,20 +2,20 @@ import 'dart:ui';
 
 import 'package:beauty_shop_app/Custom_widgets/custom_widgets.dart';
 import 'package:beauty_shop_app/Custom_widgets/sub_text.dart';
-<<<<<<< HEAD
+
 import 'package:beauty_shop_app/Page/Home_Page.dart';
-=======
+
 // import 'package:beauty_shop_app/Page/Home_Page.dart';
->>>>>>> 62cdbb9 (Initial commit)
+
 import 'package:beauty_shop_app/Page/bottom.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-<<<<<<< HEAD
+
 import 'package:google_fonts/google_fonts.dart';
-=======
+
 // import 'package:google_fonts/google_fonts.dart';
->>>>>>> 62cdbb9 (Initial commit)
+
 
 class Splash extends StatelessWidget {
   const Splash({Key? key}) : super(key: key);
@@ -74,12 +74,7 @@ class Splash extends StatelessWidget {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        maintext(
-<<<<<<< HEAD
-                          text: 'Feel young Again',
-=======
-                          text: 'Be youngAgain',
->>>>>>> 62cdbb9 (Initial commit)
+                        maintext(text: 'Feel young Again',
                           fs: 15,
                           clr: primaryColor,
                         ),
